@@ -1,0 +1,177 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:  #132f57; /* Navy Blue #1f5a96 */
+    color: #ffffff; /* White */
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e31937; /* Tesla Red */
+    padding: 10px 20px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* Fixes the nav bar to the top */
+    /* Aligns the nav bar at the top of the viewport */
+     /* Ensures the nav bar takes the full width of the page */
+     
+    
+  }
+  
+  nav .logo img {
+    width: 250px;
+    border-radius: 15px;
+  }
+  nav .logo a:hover {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  nav .logo img {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+nav .logo:hover img {
+    transform: scale(1.1); /* Scale the image up by 10% on hover */
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+
+  }
+  button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+  }
+  
+  nav .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav .nav-links a:hover {
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  /* Page Sections */
+  .page-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #why-tesla {
+    background-color:  #e31937; /* Navy Blue */
+  }
+  
+  #home {
+    background-color: #ffffff; /* White */
+    color: #132f57; /* Navy Blue */
+  }
+  
+  #about {
+    background-color: #e31937; /* Tesla Red */
+  }
+  
+  /* Content Styling */
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Call-to-Action Button */
+  .cta-button {
+    background-color: #e31937; /* Tesla Red */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #b3142c; /* Darker Red */
+  }
+  
+  /* Footer */
+  footer {
+    max-height: fit-content;
+
+    background-color: #132f57; /* Navy Blue */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+
+    color: #ffffff;
+
+  }
+  .fa{
+    color:#ffffff;
+  }
+  
+  .footer-icons {
+    display: flex;
+
+    justify-content: center; /* Centers the icons */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5px; /* Bring text closer to icons */
+
+  }
+  .footer p{
+    margin: 0; /* Remove extra margin around the text */
+
+  }
+
+  .imagessection {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    align-items: center; /* Centers images vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: white; /* White background */
+    padding: 20px; /* Add some padding */
+}
+
+.imagessection img {
+    max-width: 45%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 20px; /* Apply border radius to images */
+    margin: 0 10px; /* Add space between images */
+}
