@@ -29,28 +29,23 @@
     
 }
 #redaboutsection p{
-    text-align: center;
-    background-color: #e31937;
+    text-align: left;
     margin-left: 15px;/* Leaves 20px on left & right */
     margin-right: 45px;
     padding: 30px;
-    width: 50%;
+    width: 100%;
 }
-#aboutsectionimage img{
-    width: 30%;
-    height: 400px;
-    width: auto;
-    margin-right: 100px;
-    border-radius: 30px;
-}
+
 .about-container {
     width: 100%;
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Adjust spacing between the sections */
-    align-items: center; /* Align items vertically in the center */
+    align-items: center; 
+    justify-content: center;/* Align items vertically in the center */
     margin: 20px;
     background-color: #e31937;
     border-radius: 20px;
+    overflow: hidden; 
 }
 .section1{
     display: flex;
