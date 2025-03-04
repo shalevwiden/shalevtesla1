@@ -83,6 +83,7 @@ nav .logo:hover img {
   #home {
     background-color: #ffffff; /* White */
     color: #132f57; /* Navy Blue */
+    height: 60vh;
   }
   
   #about {
@@ -123,7 +124,8 @@ nav .logo:hover img {
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 39px;
+    margin-bottom: 50px;
   }
   
   .cta-button:hover {
@@ -174,4 +176,17 @@ nav .logo:hover img {
     height: auto;
     border-radius: 20px; /* Apply border radius to images */
     margin: 0 10px; /* Add space between images */
+}
+#line{
+  height: 6vh;
+}
+#imagelinks{
+  background-color: white;
+  color: #132f57;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 400px; 
+  width: 100%; 
+  gap: 20px;
 }
